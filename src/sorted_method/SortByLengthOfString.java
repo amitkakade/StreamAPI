@@ -19,7 +19,7 @@ public class SortByLengthOfString {
     public static void main(String[] args) {
 
         List<String> list = Arrays.asList("amit", "sumit", "sudam", "sangeeta", "Jigyasa", "bhagyashree");
-        list = list.stream().sorted((o1, o2) -> {
+        Comparator<String> comparator = (o1, o2) -> {
             int l1 = o1.length();
             int l2 = o2.length();
             if (l1 > l2) {
@@ -29,7 +29,8 @@ public class SortByLengthOfString {
             } else {
                 return 0;
             }
-        }).collect(Collectors.toList());
+        };
+        list = list.stream().sorted(comparator).collect(Collectors.toList());
         System.out.println(list);
 
     }
