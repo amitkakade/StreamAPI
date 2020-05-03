@@ -3,21 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package collectorsdemo;
+package collectors;
 
+import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
  *
  * @author admin
  */
-public class CollectorsPartitioningBy {
+public class CollectorsCollectingAndThen {
 
     public static void main(String[] args) {
         GetStudentListClass obj = new GetStudentListClass();
-        Map<Boolean, List<Student>> map = obj.getStudentListObj().stream().collect(Collectors.partitioningBy(student -> student.getPercentage() > 80.0));
-        System.out.println(map);
+        List<Student> first3Student = obj.getStudentListObj().stream().limit(3).collect(Collectors.collectingAndThen(Collectors.toList(), Collections::unmodifiableList));
+        System.out.println(first3Student);
     }
+
 }

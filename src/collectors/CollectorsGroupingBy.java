@@ -3,19 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package collectorsdemo;
+package collectors;
 
-import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
  *
  * @author admin
  */
-public class CollectorsToCollection {
+public class CollectorsGroupingBy {
+
     public static void main(String[] args) {
         GetStudentListClass obj = new GetStudentListClass();
-        LinkedList<Student> ll = obj.getStudentListObj().stream().collect(Collectors.toCollection(LinkedList::new));
-        System.out.println(ll);
+        Map<String, List<Student>> map = obj.getStudentListObj().stream().collect(Collectors.groupingBy(Student::getName));
+        System.out.println(map);
     }
 }

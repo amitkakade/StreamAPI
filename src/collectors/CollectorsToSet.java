@@ -3,21 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package collectorsdemo;
+package collectors;
 
-import java.util.List;
-import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
  *
  * @author admin
  */
-public class CollectorsGroupingBy {
-
+public class CollectorsToSet {
     public static void main(String[] args) {
         GetStudentListClass obj = new GetStudentListClass();
-        Map<String, List<Student>> map = obj.getStudentListObj().stream().collect(Collectors.groupingBy(Student::getName));
-        System.out.println(map);
+        Set<String> set = obj.getStudentListObj().stream().map(Student::getSubject).collect(Collectors.toSet());
+//        Set<Student> set = obj.getStudentListObj().stream().collect(Collectors.toSet());
+        System.out.println(set);
     }
 }
