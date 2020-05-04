@@ -2,29 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsSummingIntLongDouble.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsGroupingBy.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsSummarizingIntLongDouble.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/GetStudentListClass.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsAveragingIntLongDouble.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsPartitioningBy.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectMethodConstructors.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectersToList.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsCounting.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/sorted_method/ReverseOrder.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsMinBy.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/Student.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/sorted_method/NaturalOrder.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/sorted_method/CustomComparator.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/sorted_method/LambdaExpression.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsMaxBy.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/count_method/StreamCount.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsToMap.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsCollectingAndThen.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsToSet.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsToCollection.java</file>
-            <file>file:/C:/Users/admin/Desktop/Amit%20Kakade/Java%20Programs/StreamAPI/src/collectorsdemo/CollectorsJoining.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
